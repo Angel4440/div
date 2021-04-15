@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 module.exports.run = async (client, message, args) => {
   message.delete();
-    if ((message.author.id !== "817160910871330836"))
+    if ((message.author.id !== "767169424503078923"))
       return message.reply("Você Não Tem Permissão Para Isso!");
   let servidores = client.guilds.size;
   let usuarios = client.users.size;
